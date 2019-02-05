@@ -7,7 +7,7 @@ import sys
 
 def main():
     try:
-        people = open(sys.argv[1], "r")
+        people = open("ten.txt", "r")
     except:
         exit(1)
     num = int(people.readline())
@@ -76,3 +76,5 @@ def free(pairs, name, num):
         if name == pairs[i][num]:
             return i
     return -1
+
+main()
