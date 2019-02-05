@@ -7,7 +7,7 @@ import sys
 
 def main():
     try:
-        people = open("ten.txt", "r")
+        people = open(sys.argv[1], "r")
     except:
         exit(1)
     num = int(people.readline())
