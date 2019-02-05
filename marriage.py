@@ -77,4 +77,6 @@ def free(pairs, name, num):
             return i
     return -1
 
-main()
+#neccisary to work from the command line
+if __name__ == '__main__':
+    main()
